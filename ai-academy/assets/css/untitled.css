@@ -1,0 +1,9 @@
+main.landing-page a {
+	color: rgba(0,0,0,0.5);
+	border-color: rgba(0,0,0,0.5);
+
+}
+
+main.landing-page a:hover {
+	background-color: #efc94e;
+}
