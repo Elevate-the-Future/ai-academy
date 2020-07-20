@@ -33,12 +33,11 @@
 }
 
 .testimonials-clean .people {
-  padding: 50px 0 20px;
-}
-
-.testimonials-clean .item {
-  margin-bottom: 32px;
-	margin-left: 27%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 30vh;
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
 
 @media (min-width:768px) {
@@ -49,9 +48,10 @@
 
 .testimonials-clean .item .box {
   padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #fff;
   position: relative;
-	width: 500px;
 }
 
 .testimonials-clean .item .box:after {

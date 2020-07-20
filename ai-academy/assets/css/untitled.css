@@ -21,3 +21,14 @@ main.landing-page a:hover {
     width: 100%;
     height: 100%;
 }
+
+button.btn-block {
+    background-color: #efc94e;
+    border-color: #efc94e;
+}
+
+button.btn-block:hover {
+    background-color: #efc94e;
+    border-color: #efc94e;
+    color: black;
+}
