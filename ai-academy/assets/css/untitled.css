@@ -32,3 +32,14 @@ button.btn-block:hover {
     border-color: #efc94e;
     color: black;
 }
+
+form a.btn-primary {
+    background-color: #efc94e;
+    border-color: #efc94e;
+}
+
+form a.btn-primary:hover {
+    background-color: #efc94e;
+    border-color: #efc94e;
+    color: black;
+}
