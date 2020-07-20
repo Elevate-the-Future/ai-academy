@@ -112,25 +112,74 @@ src="https://www.facebook.com/tr?id=844790732711262&ev=PageView&noscript=1"
             <p>hidden</p>
         </div>
         <div class="col-md-6 col-12 dark" style="width: 90%; border-radius: 10px;">
-            <form>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Student First Name</label>
-                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Student Last Name</label>
-                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              </div>
+            <form action="https://formsubmit.co/doubleptsauce1219@gmail.com" method="POST">
+            	<div class="row">
+	            	<div class="col-6">
+	              		<div class="form-group">
+	                		<label for="exampleInputEmail1">Student First Name</label>
+	                		<input type="name" name="firstname" class="form-control" id="firstname" aria-describedby="name">
+	              		</div>
+	              	</div>
+	              	<div class="col-6">
+	              		<div class="form-group">
+			                <label for="exampleInputEmail1">Student Last Name</label>
+			                <input type="name" name="lastname" class="form-control" id="lastname" aria-describedby="lastname">
+			            </div>
+	              	</div>
+	            </div>
               <div class="form-group">
                 <label for="exampleInputEmail1">Student Email Address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                <input type="email" name="studentemail" class="form-control" id="email" aria-describedby="emailHelp">
               </div>
+              <div class="row">
+	            	<div class="col-6">
+	              		<div class="form-group">
+	                		<label for="exampleInputEmail1">Parent Full Name</label>
+	                		<input type="name" name="parentname" class="form-control" id="fullname" aria-describedby="name">
+	              		</div>
+	              	</div>
+	              	<div class="col-6">
+	              		<div class="form-group">
+			                <label for="exampleInputEmail1">Parent Email</label>
+			                <input type="email" name="parentemail" class="form-control" id="pemail" aria-describedby="pemail">
+			            </div>
+	              	</div>
+	            </div>
               <div class="form-group">
                 <label for="inputAddress">Phone Number</label>
-                <input type="text" class="form-control" id="inputAddress">
+                <input type="text" name="phonenumber" class="form-control" id="inputAddress">
               </div>
-              <button style: background-color: #efc94e; border: #efc94e type="submit" class="btn btn-primary btn-block" >Submit</button>
+              <div class="row">
+	            	<div class="col-6">
+	              		  <div class="form-group">
+						    <label for="exampleFormControlSelect1">Student Grade:</label>
+						    <select class="form-control" id="grade" name="studentgrade">
+						      <option>8th Grade</option>
+						      <option>9th Grade</option>
+						      <option>10th Grade</option>
+						      <option>11th Grade</option>
+						      <option>12th Grade</option>
+						      <option>Other</option>
+						    </select>
+						</div>	              	
+					</div>
+	              	<div class="col-6">
+						<div class="form-group">
+						    <label for="exampleFormControlSelect1">Interested In:</label>
+						    <select class="form-control" id="interest" name="interested">
+						      <option>Machine Learning Basic</option>
+						      <option>Machine Learning Intermediate</option>
+						      <option>Machine Learning Advanced</option>
+						      <option>Machine Learning for Middle Schoolers</option>
+						    </select>
+						</div>
+	              	</div>
+	            </div>
+                <div class="form-group">
+                <label for="inputAddress">How Did You Hear About Us?</label>
+                <input type="text" name="Hear" class="form-control" id="inputAddress">
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Submit</button>
             </form>
         </div>
     </div>
