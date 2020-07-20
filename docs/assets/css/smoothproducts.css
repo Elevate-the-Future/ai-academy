@@ -204,6 +204,10 @@ html, body {
   text-align: center;
 }
 
+.clean-block .clean-hero{
+	background-image: url("assets/img/Photos/Home/wide.JPG");
+}
+
 @media (min-width:576px) {
   .col-sm-3 {
     -ms-flex: 0 0 25%;

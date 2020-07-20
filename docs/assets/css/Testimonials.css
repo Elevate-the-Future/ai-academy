@@ -38,6 +38,7 @@
 
 .testimonials-clean .item {
   margin-bottom: 32px;
+	margin-left: 27%;
 }
 
 @media (min-width:768px) {
@@ -50,6 +51,7 @@
   padding: 30px;
   background-color: #fff;
   position: relative;
+	width: 500px;
 }
 
 .testimonials-clean .item .box:after {
