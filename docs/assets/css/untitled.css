@@ -43,3 +43,8 @@ form a.btn-primary:hover {
     border-color: #efc94e;
     color: black;
 }
+
+div img.img-thumbnail {
+    max-height: 35vh;
+    width: auto;
+}
